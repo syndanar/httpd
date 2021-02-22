@@ -1,0 +1,43 @@
+{
+  "name": "http-server",
+  "version": "0.0.1",
+  "description": "A simple not modules depenced http server",
+  "main": "./lib/httpd.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:syndanar/httpd.git"
+  },
+  "keywords": [
+    "cli",
+    "command",
+    "http",
+    "server"
+  ],
+  "scripts": {
+    "start": "node ./bin/http-server",
+    "test": "jest"
+  },
+  "files": [
+    "lib",
+    "bin",
+    "doc"
+  ],
+  "man": "./doc/http-server.1",
+  "engines": {
+    "node": ">=6"
+  },
+  "contributors": [
+    {
+      "name": "Maxim Magadeev",
+      "email": "syndanar@gmail.com"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/syndanar/httpd/issues"
+  },
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "httpd": "./bin/httpd"
+  }
+}
