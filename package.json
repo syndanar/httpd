@@ -2,7 +2,7 @@
   "name": "http-server",
   "version": "0.0.1",
   "description": "A simple not modules depenced http server",
-  "main": "./lib/httpd.js",
+  "main": "./httpd.js",
   "repository": {
     "type": "git",
     "url": "git@github.com:syndanar/httpd.git"
@@ -14,7 +14,7 @@
     "server"
   ],
   "scripts": {
-    "start": "node ./bin/http-server",
+    "start": "node ./httpd.js",
     "test": "jest"
   },
   "files": [
@@ -36,8 +36,5 @@
     "url": "https://github.com/syndanar/httpd/issues"
   },
   "license": "MIT",
-  "preferGlobal": true,
-  "bin": {
-    "httpd": "./bin/httpd"
-  }
+  "preferGlobal": true
 }
